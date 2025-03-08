@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hjhj</title>
+    <!-- <h1>ANH YEU EM</h1> -->
+    <style>
+        /* body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fce4ec;
+        } */
+
+        /* .picture2 {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            height: 100vh; 
+            max-width: 100%; 
+            max-height: 80vh;
+        } */
+
+        /* .picture1 {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            height: 100vh; 
+            max-width: 100%; 
+            max-height: 80vh;
+            animation: a1 0.4s infinite alternate;
+        } */
+
+        .large-text { font-size: 50px; }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #e27fa0;
+            margin: 0;
+        }
+
+        .music {
+            margin-bottom: 20px;
+        }
+
+        .pictures {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 150px; 
+        }
+
+        .picture1, .picture2 {
+            max-width: 40%; 
+            max-height: 300px;
+        }
+
+        .picture1 img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .picture2 img {
+            max-width: 70%;
+            max-height: 70%;
+            object-fit: cover;
+        }
+
+        /*hieu ung*/
+        .picture1 img {
+            animation: a1 0.3s infinite alternate;
+        }
+        @keyframes a1 {
+            0% {
+                transform:  scale(0.5);
+            }
+            100% {
+                transform:  scale(0.8);
+            }
+        }
+
+        .picture2 img {
+            animation: a2 1.5s linear infinite;
+        }
+        @keyframes a2 {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <p class="large-text">NGOC 8/3 VUI VE</p>
+    <div class="music">
+        <audio controls>
+            <source src="C:\Users\hoang\Downloads\CarelessWhisper-HoaTau-3089055.mp3">
+        </audio>
+    </div>
+
+    <div class="pictures">
+        <div class="picture1">
+            <img src="C:\Users\hoang\OneDrive\Hình ảnh\Cuộn phim\WIN_20241114_18_10_00_Pro.jpg" alt="Ảnh ở giữa">  
+        </div>
+        <div class="picture2">
+            <img src="C:\Users\hoang\OneDrive\Hình ảnh\Saved Pictures\tải xuống.jpg">
+        </div>
+    </div>
+
+    
+</body>
+</html>
